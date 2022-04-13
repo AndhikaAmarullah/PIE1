@@ -23,7 +23,7 @@ if (isset($_SESSION['is_login'])) :
         <div class="row mt-5">
             <div class="col-8 mx-auto">
                 <form action="proses-update.php" method="POST">
-                    <h1 class="h1">Ubah Profil</h1>
+                    <h1 class="h1">Ubah Nama Dan Npm</h1>
 
                     <input type="hidden" name="email" id="input-email" class="form-control" value=<?= $_SESSION['email'];?>>
                     <div class="mb-3">
@@ -34,6 +34,10 @@ if (isset($_SESSION['is_login'])) :
                     <div class="mb-3">
                         <label for="input-nama" class="form-label">Nama:</label>
                         <input type="text" name="nama" id="input-nama" class="form-control" required="required" value=<?= $_SESSION['nama'];?>>
+                    </div>
+                    <div class="mb-3">
+                        <label for="input-email" class="form-label">Email:</label>
+                        <input type="text" name="email" id="input-email" class="form-control" required="required" value=<?= $_SESSION['email'];?>>
                     </div>
 
                     <input type="submit" class="btn btn-primary">
