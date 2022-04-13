@@ -1,3 +1,2 @@
-TUGAS MATA KULIAH PROYEK PEMROGRAMAN WEB DAN E-COMMERCE<br>
-Nama : Dicky Pratama<br>
-NPM  : G1A020061<br>
+NAMA : Andhika Amarullah
+NPM : G1A020097
